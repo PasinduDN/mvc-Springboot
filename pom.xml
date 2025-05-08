@@ -8,10 +8,15 @@
     <artifactId>mvc-Springboot-backend</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <parent>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-parent</artifactId>
+            <version>3.4.5</version>
+    </parent>
+
     <properties>
         <maven.compiler.source>18</maven.compiler.source>
         <maven.compiler.target>18</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-    
 </project>
