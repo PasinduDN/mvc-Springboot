@@ -1,8 +1,8 @@
 package edu.testing.dto;
 
 public class Course {
-    String description;
-    String code;
-    String fee;
-    String duration;
+    private String description;
+    private String code;
+    private String fee;
+    private String duration;
 }
