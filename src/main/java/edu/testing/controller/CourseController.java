@@ -10,14 +10,14 @@ import java.util.List;
 @RestController
 public class CourseController {
 
-    @GetMapping("/getCourseList")
-    public List<Course> getCourse(){
-        ArrayList<Course> courseList = new ArrayList();
-        courseList.add(new Course("C001","01", "5000","5"));
-        courseList.add(new Course("C002","02", "6000","6"));
-        courseList.add(new Course("C003","03", "7000","7"));
-        courseList.add(new Course("C004","04", "8000","8"));
-        courseList.add(new Course("C005","05", "9000","9"));
-        return courseList;
+    @GetMapping("/getListCourseList")
+    public List<Course> getListOfCourse(){
+        ArrayList<Course> coursesList = new ArrayList();
+        coursesList.add(new Course("D001","001", "50000","15"));
+        coursesList.add(new Course("D002","002", "60000","16"));
+        coursesList.add(new Course("D003","003", "70000","17"));
+        coursesList.add(new Course("D004","004", "80000","18"));
+        coursesList.add(new Course("D005","005", "90000","19"));
+        return coursesList;
     }
 }
