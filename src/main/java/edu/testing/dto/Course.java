@@ -11,7 +11,7 @@ import lombok.ToString;
 @NoArgsConstructor
 public class Course {
     private String description;
-    private String code;
+    private String institute;
     private String fee;
     private String duration;
 }
