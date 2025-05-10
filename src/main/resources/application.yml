@@ -1,0 +1,8 @@
+application:
+  institute: xyz
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/test_Institute
+    password: 12345678
+    username: root
